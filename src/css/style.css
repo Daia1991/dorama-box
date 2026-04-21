@@ -60,7 +60,13 @@ header a:hover {
   transition: 0.3s;
   box-shadow: 0 0 10px rgba(209, 47, 214, 0.5);
 }
+.card p {
+  display: none;
+}
 
+.card:hover p {
+  display: block;
+}
 .card:hover {
   transform: scale(1.05);
 }
