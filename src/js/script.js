@@ -1,0 +1,138 @@
+const doramas = [
+  {
+    categoria: "romance",
+    titulo: "Se a Vida Te Der Tangerinas...",
+    imagem: "src/img/se-a-vida-te-der-tang.jpg",
+    sinopse: `Ambientado na encantadora ilha de Ilha de Jeju, o dorama acompanha a vida de Ae-sun, uma jovem rebelde, sonhadora e cheia de personalidade, que deseja se tornar poetisa mesmo enfrentando dificuldades desde cedo. Ao seu lado está Gwan-sik, um homem reservado, leal e trabalhador, que a ama profundamente, embora tenha dificuldade em expressar seus sentimentos.
+
+A história percorre diferentes fases da vida dos dois, mostrando seus desafios, sacrifícios, conquistas e um romance intenso que atravessa o tempo. Entre momentos de alegria, dor e superação, o dorama revela como o amor, a família e as escolhas moldam quem nos tornamos.
+
+Mais do que um simples romance, Se a Vida Te Der Tangerinas é uma jornada emocional sobre crescer, persistir e encontrar beleza mesmo nas dificuldades da vida.`
+  },
+  {
+    categoria: "romance",
+    titulo: "A Coroa Perfeita",
+    imagem: "src/img/a_coroa_.jpeg",
+    sinopse: `Ela tem tudo… menos o que mais quer. Ele tem o que todos desejam… mas não pode viver.
+
+Em uma Coreia do Sul moderna onde a monarquia ainda dita regras, Seong Hui-ju (IU) é uma herdeira chaebol determinada a conquistar o status que o dinheiro não compra. Do outro lado, o príncipe Yi An (Byeon Woo-seok) vive preso a uma vida sem escolhas, carregando o peso de um título que mais parece uma prisão.
+
+Quando os dois entram em um casamento por contrato, o que começa como um acordo estratégico logo se transforma em algo muito mais profundo.
+
+Entre jogos de poder, aparências e expectativas da realeza… surge um sentimento que nenhum dos dois estava preparado para enfrentar.`
+  },
+  {
+    categoria: "romance",
+    titulo: "Beleza Verdadeira",
+    imagem: "src/img/beleza verdadeira.jpg",
+    sinopse: `“Beleza Verdadeira” acompanha a história de Lim Ju-kyung, uma jovem que sofre com inseguranças por não se encaixar nos padrões de beleza. Após aprender técnicas de maquiagem através de tutoriais online, ela transforma completamente sua aparência e passa a viver uma nova realidade na escola, sendo admirada por todos. No entanto, por trás da aparência perfeita, existe o medo constante de que descubram seu “verdadeiro” rosto.
+
+Entre amizades, romances e desafios, Ju-kyung conhece pessoas que enxergam além da aparência, especialmente Lee Su-ho e Han Seo-jun, que carregam suas próprias dores e segredos. Ao longo da história, ela aprende que a verdadeira beleza vai muito além da estética, envolvendo autoestima, aceitação e autenticidade.`
+  },
+  {
+    categoria: "romance",
+    titulo: "Rainha das Lágrimas",
+    imagem: "src/img/rainha das lagrimas.jpg",
+    sinopse: `“Rainha das Lágrimas” conta a história de Hong Hae-in, uma herdeira fria e poderosa de um grande império empresarial, e Baek Hyun-woo, um advogado brilhante de origem humilde. Casados há anos, o relacionamento dos dois está à beira do colapso, marcado por diferenças, mágoas e a distância emocional.
+
+Quando uma crise inesperada abala suas vidas, eles são obrigados a enfrentar seus sentimentos e revisitar o passado que os uniu. Em meio a conflitos familiares, disputas pelo poder e segredos revelados, o casal redescobre o amor que parecia perdido.
+
+A história mistura romance, drama e superação, mostrando que mesmo nos momentos mais difíceis, o amor pode renascer — trazendo lágrimas, mas também esperança.`
+  },
+  {
+    categoria: "drama",
+    titulo: "A Lição",
+    imagem: "src/img/A liçao.jpg",
+    sinopse: `“A Lição” acompanha a história de Moon Dong-eun, uma mulher marcada por um passado de violência escolar brutal. Durante sua adolescência, ela foi vítima de bullying extremo, que deixou cicatrizes físicas e emocionais profundas. Anos depois, ela dedica sua vida a um único objetivo: vingança.
+
+Com paciência e planejamento, Dong-eun se infiltra na vida de seus antigos agressores, especialmente da líder Park Yeon-jin, agora uma mulher bem-sucedida. Ao se tornar professora na escola da filha de Yeon-jin, ela começa a executar seu plano cuidadosamente arquitetado.
+
+A trama é intensa e cheia de reviravoltas, explorando temas como justiça, trauma, dor e redenção, mostrando até onde alguém pode ir para acertar contas com o passado.`
+  },
+  {
+    categoria: "drama",
+    titulo: "Vincenzo",
+    imagem: "src/img/vincenzo.jpg",
+    sinopse: `“Vincenzo” conta a história de Vincenzo Cassano, um advogado italiano e conselheiro da máfia que, na verdade, nasceu na Coreia do Sul. Após conflitos dentro da organização, ele retorna ao seu país de origem em busca de um tesouro escondido.
+
+Lá, ele se envolve em uma batalha contra uma poderosa empresa corrupta, usando métodos pouco convencionais — muitas vezes mais próximos do mundo do crime do que da justiça tradicional. Ao lado da determinada advogada Hong Cha-young, Vincenzo enfrenta inimigos perigosos com inteligência, estratégia e um toque de humor ácido.
+
+Misturando ação, comédia e drama, a história mostra um anti-herói carismático que luta contra vilões ainda piores, provando que às vezes é preciso usar o “mal” para combater algo maior.`
+  },
+  {
+    categoria: "sobrenatural",
+    titulo: "Amanhã",
+    imagem: "src/img/amanha.jpg",
+    sinopse: `“Amanhã” acompanha Choi Jun-woong, um jovem que está em busca de emprego, mas acaba sofrendo um acidente inesperado que muda completamente sua vida. Após esse evento, ele passa a trabalhar com uma equipe especial de ceifadores do além — diferente dos comuns, eles não levam almas, mas tentam salvar pessoas que estão à beira do suicídio.
+
+Liderados pela determinada e misteriosa Koo Ryeon, o grupo enfrenta casos delicados e emocionantes, ajudando pessoas a reencontrarem esperança em meio à dor e ao desespero. Cada missão revela histórias profundas sobre sofrimento, escolhas e o valor da vida.
+
+Misturando fantasia, drama e temas sensíveis, “Amanhã” traz reflexões fortes sobre saúde mental, empatia e a importância de continuar vivendo, mesmo nos momentos mais difíceis.`
+  },
+  {
+    categoria: "sobrenatural",
+    titulo: "Caçadores de Demônio",
+    imagem: "src/img/caçadores de demonio.jpg",
+    sinopse: `“Caçadores de Demônios” acompanha um grupo secreto conhecido como “Counters”, pessoas com habilidades especiais que caçam espíritos malignos disfarçados de humanos. Eles trabalham fingindo ser funcionários de um restaurante, enquanto, na verdade, protegem o mundo dos demônios que escaparam do além.
+
+A história ganha força com a chegada de So Mun, um jovem estudante que, após um evento misterioso, se torna o mais novo integrante do grupo. Mesmo sendo inexperiente, ele desenvolve poderes únicos e passa a enfrentar inimigos cada vez mais perigosos.
+
+Enquanto lutam contra forças sobrenaturais, os personagens também lidam com seus próprios traumas e passados dolorosos. A trama mistura ação, suspense e emoção, mostrando a importância da união, da justiça e da superação.`
+  }
+];
+
+function createDoramaCard(doramaItem) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <h4>${doramaItem.titulo}</h4>
+    <p>${doramaItem.sinopse}</p>
+    <img src="${doramaItem.imagem}" alt="${doramaItem.titulo}">
+  `;
+  return card;
+}
+
+function playBackgroundAudio() {
+  const audio = document.getElementById("bg-audio");
+  if (!audio) return;
+
+  const playPromise = audio.play();
+  if (playPromise !== undefined) {
+    playPromise.catch(() => {
+      document.body.addEventListener(
+        "click",
+        () => {
+          audio.play();
+        },
+        { once: true }
+      );
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Determinar a categoria baseada na URL da página
+  const pathname = window.location.pathname;
+  let categoriaAtual = null;
+
+  if (pathname.includes("romance.html")) {
+    categoriaAtual = "romance";
+  } else if (pathname.includes("drama.html")) {
+    categoriaAtual = "drama";
+  } else if (pathname.includes("sobrenatural.html")) {
+    categoriaAtual = "sobrenatural";
+  }
+
+  // Se estamos em uma página de categoria específica, renderizar apenas essa categoria
+  if (categoriaAtual) {
+    const doramasFiltrados = doramas.filter(item => item.categoria === categoriaAtual);
+    const container = document.querySelector(`#${categoriaAtual} .cards-container`);
+    if (container) {
+      doramasFiltrados.forEach((item) => {
+        container.appendChild(createDoramaCard(item));
+      });
+    }
+  }
+
+  playBackgroundAudio();
+});
